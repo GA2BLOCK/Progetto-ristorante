@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    background: linear-gradient(to right, green, white,red);
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    padding-right: 40px;
+}
+
+.tipo-portata{
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+ul{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+li{
+    padding-bottom: 3px;
+}
+
+span{
+    font-weight: 600;
+}

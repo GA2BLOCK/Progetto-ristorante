@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    background: linear-gradient(to right, green, white,red);
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    padding-right: 40px;
+}
+
+.box-button{
+    display: grid;
+    justify-items: center;
+}
+
+.button{
+    padding-bottom: 50px;
+}
+
+button{
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+button:hover{
+      background:  linear-gradient(to right, green, white,red);
+      transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
